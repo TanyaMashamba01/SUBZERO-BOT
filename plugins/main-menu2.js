@@ -460,15 +460,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/yNf7rQFw/prn.jpg` },
+                image: { url: `https://i.postimg.cc/GmRpKL8j/1717623406802.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: 'ѕυϐzєяο м∂ ω.α ϐοτ',
+                        newsletterName: 'ᴊᴏsʜᴜᴀᴍᴀᴍʙᴏ1 ᴡ.ʙ ʙᴏᴛ',
                         serverMessageId: 143
                     }
                 }
@@ -478,7 +477,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
+            audio: { url: 'https://files.catbox.moe/6780pv.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
