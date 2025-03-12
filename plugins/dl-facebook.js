@@ -55,14 +55,13 @@ cmd({
       caption: `📥 *Video Details*\n\n` +
         `🔖 *Title*: ${title}\n` +
         `📏 *Quality*: ${downloads.find(d => d.quality === "HD") ? "HD" : "SD"}\n\n` +
-        `> © Powered by Mr Frank`,
+        `> © 𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝑱𝒐𝒔𝒉𝑲𝒊𝒏𝒈01`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterName: '『 𝑱𝑶𝑺𝑯𝑼𝑨𝑴𝑨𝑴𝑩𝑶 𝑴𝑫 』',
           serverMessageId: 143
         }
       }
