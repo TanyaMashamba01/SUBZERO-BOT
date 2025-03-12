@@ -293,11 +293,11 @@ async (conn, mek, m, { from, reply }) => {
 
 > Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, 𝕵o WhatsApp Bot. ❄️
 
-*Thanks for using SubZero MD🌹🫶* 
+*Thanks for using 𝑱𝑶𝑺𝑯𝑼𝑨𝑴𝑨𝑴𝑩𝑶 𝑴𝑫🌹🫶* 
 
 > Don't forget to star & fork the repo🌟🍴
 
-https://github.com/farai munyasha𝖓𝖆𝕵𝖔𝖘𝖍𝖚𝖆𝖒𝖆𝖒𝖇𝖔
+https://github.com/farai munyasha𝖓𝖆 𝑱𝒐𝒔𝒉𝒖𝒂𝒎𝒂𝒎𝒃𝒐
 ──────────────────
 ${readMore}
 \`BOT NAME:\`❄️
@@ -335,7 +335,7 @@ ${readMore}
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
+            audio: { url: 'https://files.catbox.moe/da6m1z.mp4' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
