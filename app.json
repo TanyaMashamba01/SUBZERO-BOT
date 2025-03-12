@@ -21,8 +21,8 @@
       
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
-      "required": false,
-      "value": "."
+      "required": true,
+      "value": "+"
     },
     
     "MODE": {
@@ -73,27 +73,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*𝑺𝒖𝒃𝒛𝒆𝒓𝒐 𝑩𝒐𝒕 𝑽𝒊𝒆𝒘𝒆𝒅 𝒀𝒐𝒖𝒓 𝑺𝒕𝒂𝒕𝒖𝒔 🦄*"
+      "value": "*𝑱𝒐𝒔𝒉𝒖𝒂𝒎𝒂𝒎𝒃𝒐 𝑩𝒐𝒕 𝑽𝒊𝒆𝒘𝒆𝒅 𝒀𝒐𝒖𝒓 𝑺𝒕𝒂𝒕𝒖𝒔 🦄*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "𝐌𝐫 𝐅𝐫𝐚𝐧𝐤"
+      "value": "𝗝𝗼𝘀𝗵𝘂𝗮𝗺𝗮𝗺𝗯𝗼"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
-      "required": false,
-      "value": "263719646303"
+      "required": true,
+      "value": "263716729222"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
-      "required": false,
-      "value": "SUBZERO-MD"
+      "required": true,
+      "value": "Joshuamambo-MD"
 
       }, 
 
