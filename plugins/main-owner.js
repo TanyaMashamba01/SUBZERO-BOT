@@ -249,8 +249,8 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.postimg.cc/Tw01QQgN/White-and-Green-Simple-Professional-Business-Project-Presentation-3.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *SUBZERO MD* 〕━━┈⊷
+            image: { url: 'https://b.top4top.io/p_3291qwfqu0.jpg' }, // Image URL from your request
+            caption: `╭━━〔 *𝑱𝑶𝑺𝑯𝑼𝑨𝑴𝑨𝑴𝑩𝑶 𝑴𝑫* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here are the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -264,8 +264,7 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'Mr Frank OFC (🇿🇼)',
+                    newsletterName: '𝑴𝒂𝒎𝒃𝒐 𝒘𝒆𝒑𝒂𝑮𝒘𝒆𝒓𝒖 (🇿🇼)',
                     serverMessageId: 143
                 }            
             }
@@ -273,7 +272,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-theone.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/da6m1z.mp4' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
