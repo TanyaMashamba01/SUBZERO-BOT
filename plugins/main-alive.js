@@ -21,7 +21,7 @@ cmd({
     const runtimeMinutes = Math.floor((runtimeMilliseconds / (1000 * 60)) % 60);
     const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
     const formattedInfo = `
- 🏮 *SUBZERO MD STATUS* 🏮 
+ 🏮 *𝑱𝒐𝒔𝒉𝒖𝒂𝒎𝒂𝒎𝒃𝒐 𝑴𝑫 𝑺𝑻𝑨𝑻𝑼𝑺* 🏮 
 
   *Hi👋😄 ${pushname}*
 
@@ -29,7 +29,7 @@ cmd({
  *📆 Date: ${harareDate}*
  *🔋 Uptime: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds*
 
- \`Status\`: *𝑴𝒋𝒂𝒚𝒂 𝒘𝒆𝒑𝒂𝑮𝒘𝒆𝒓𝒖 𝒂𝒓𝒊𝒑𝒂𝒃𝒂𝒔𝒂 𝒆𝒏𝒅𝒆 𝒂𝒓𝒊𝗢𝗡𝗟𝗜𝗡𝗘 ! 🚀*
+ \`Status\`: *𝑴𝒋𝒂𝒚𝒂 𝒘𝒆𝒑𝒂𝑮𝒘𝒆𝒓𝒖 𝒂𝒓𝒊𝒑𝒂𝒃𝒂𝒔𝒂 𝒆𝒏𝒅𝒆 𝒂𝒓𝒊𝑶𝑵𝑳𝑰𝑵𝑬 ! 🚀*
 
 > 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝗝𝗢𝗦𝗛𝗨𝗔𝗠𝗮𝗠𝗕𝗢𝟭. 🔗
 `.trim();
