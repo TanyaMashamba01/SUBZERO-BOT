@@ -273,7 +273,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/mrfrank-ofc/SUBZERO-BOT';
+    const githubRepoURL = 'https://github.com/TanyaMashamba01/MIDKBAN-MD';
 
     try {
         // Extract username and repo name from the URL
