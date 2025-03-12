@@ -47,8 +47,7 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterName: '『 𝑱𝑶𝑺𝑯𝑼𝑨𝑴𝑨𝑴𝑩𝑶 𝑴𝑫 』',
           serverMessageId: 143
         }
       }
@@ -69,7 +68,7 @@ cmd({
       `📅 *Last Updated*: ${lastup}\n` +
       `📦 *Package*: ${package}\n` +
       `📏 *Size*: ${size}\n\n` +
-      `> © Powered by Mr Frank`;
+      `> © 𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝑱𝒐𝒔𝒉𝒖𝒂𝒎𝒂𝒎𝒃𝒐`;
 
     // Send the APK file as a document
     await conn.sendMessage(from, {
@@ -82,8 +81,7 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterName: '『 𝑱𝑶𝑺𝑯𝑼𝑨𝑴𝑨𝑴𝑩𝑶 』',
           serverMessageId: 143
         }
       }
