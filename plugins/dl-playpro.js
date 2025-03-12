@@ -96,14 +96,13 @@ cmd({
       document: compressedBuffer,
       mimetype: 'audio/mpeg',
       fileName: `${songDetails.title}.mp3`,
-      caption: `> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ`,
+      caption: `> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀ`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
+          newsletterName: '『 𝑱𝑶𝑺𝑯𝑼𝑨𝑴𝑨𝑴𝑩𝑶 𝑴𝑫 』',
           serverMessageId: 143
         }
       }
