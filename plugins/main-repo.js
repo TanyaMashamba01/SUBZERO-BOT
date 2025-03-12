@@ -289,15 +289,15 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*Hello There SUBZERO W.A BOT User! 😄👋* 
+        const formattedInfo = `*Hello There 𝕵𝖔𝖘𝖍𝖚𝖆𝖒𝖆𝖒𝖇𝖔 W.A BOT User! 😄👋* 
 
-> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, SubZero WhatsApp Bot. ❄️
+> Simple, Icy, Cold  & Rich Loaded Bot With Amazing Features, 𝕵o WhatsApp Bot. ❄️
 
 *Thanks for using SubZero MD🌹🫶* 
 
 > Don't forget to star & fork the repo🌟🍴
 
-https://github.com/mrfrank-ofc/SUBZERO-BOT
+https://github.com/farai munyasha𝖓𝖆𝕵𝖔𝖘𝖍𝖚𝖆𝖒𝖆𝖒𝖇𝖔
 ──────────────────
 ${readMore}
 \`BOT NAME:\`❄️
@@ -315,19 +315,19 @@ ${readMore}
 \`DESCRIPTION:\`📃
 > ${repoData.description || 'No description'}\n
 ──────────────────
-\n> *© ροωєяє∂ ϐγ мя ƒяαиκ οƒϲ* 🎐`;
+\n> *© ροωєяє∂ ϐγ 𝕵𝖔𝖘𝖍𝖚𝖆𝖒𝖆𝖒𝖇𝖐1* 🎐`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://i.postimg.cc/MpLk9Xmm/IMG-20250305-WA0010.jpg` },
+            image: { url: `https://b.top4top.io/p_3291qwfqu0.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'ѕυϐzєяο м∂ ϐιτ',
+                   
+                    newsletterName: '𝕵𝖔𝖘𝖍𝖚𝖆𝖒𝖆𝖒𝖇𝖔1',
                     serverMessageId: 143
                 }
             }
@@ -343,8 +343,8 @@ ${readMore}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363304325601080@newsletter',
-                    newsletterName: 'ѕυϐzєяο м∂ ϐοτ',
+        
+                    newsletterName: '𝕵𝖔𝖘𝖍𝖚𝖆𝖒𝖆𝖒𝖇𝖔1 ϐοτ',
                     serverMessageId: 143
                 }
             }
