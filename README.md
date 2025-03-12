@@ -100,7 +100,7 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 
 <p align="center">
-<a href='https://dashboard.heroku.com/new?template=https://github.com/mrfrank-ofc/SUBZERO-BOT/tree/main' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/TanyaMashamba01/SUBZERO-BOT/tree/main' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-heroku ‎ deploy-FF004D?style=for-the-badge&logo=heroku&logoColor=white'/< width=150 height=28/p></a>
 
 ----------
 
