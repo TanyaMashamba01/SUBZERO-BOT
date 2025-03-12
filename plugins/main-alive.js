@@ -3,7 +3,7 @@ const { cmd } = require("../command");
 const moment = require("moment-timezone");
 let botStartTime = Date.now();
 
-const ALIVE_IMG = "https://i.postimg.cc/3RgPr15t/IMG-20250305-WA0008.jpg";
+const ALIVE_IMG = "https://i.postimg.cc/GmRpKL8j/1717623406802.jpg";
 
 cmd({
   pattern: "alive",
@@ -14,8 +14,8 @@ cmd({
 }, async (conn, mek, m, { reply, from }) => {
   try {
     const pushname = m.pushName || "User";
-    const harareTime = moment().tz("Africa/Harare").format("HH:mm:ss");
-    const harareDate = moment().tz("Africa/Harare").format("dddd, MMMM Do YYYY");
+    const harareTime = moment().tz("Africa/Gweru").format("HH:mm:ss");
+    const harareDate = moment().tz("Africa/Gweru").format("dddd, MMMM Do YYYY");
     const runtimeMilliseconds = Date.now() - botStartTime;
     const runtimeSeconds = Math.floor((runtimeMilliseconds / 1000) % 60);
     const runtimeMinutes = Math.floor((runtimeMilliseconds / (1000 * 60)) % 60);
@@ -29,9 +29,9 @@ cmd({
  *📆 Date: ${harareDate}*
  *🔋 Uptime: ${runtimeHours} hours, ${runtimeMinutes} minutes, ${runtimeSeconds} seconds*
 
- \`Status\`: *Subzero is online! 🤗🚀*
+ \`Status\`: *𝑴𝒋𝒂𝒚𝒂 𝒘𝒆𝒑𝒂𝑮𝒘𝒆𝒓𝒖 𝒂𝒓𝒊𝒑𝒂𝒃𝒂𝒔𝒂 𝒆𝒏𝒅𝒆 𝒂𝒓𝒊𝗢𝗡𝗟𝗜𝗡𝗘 ! 🚀*
 
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌𝐑 𝐅𝐑𝐀𝐍𝐊. 🔗
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝗝𝗢𝗦𝗛𝗨𝗔𝗠𝗮𝗠𝗕𝗢𝟭. 🔗
 `.trim();
 
     if (!ALIVE_IMG || !ALIVE_IMG.startsWith("http")) {
@@ -45,9 +45,8 @@ cmd({
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363304325601080@newsletter',
-          newsletterName: '⁑ ѕυϐzєяο м∂ ⁑ ',
+        forwardedNewsletterMessageInfo: 
+          newsletterName: '⁑ 𝕁𝕠𝕤𝕙𝕦𝕒𝕞𝕒𝕞𝕓𝕠 ⁑ ',
           serverMessageId: 143
         }
       }
